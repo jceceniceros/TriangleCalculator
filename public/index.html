@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Calculadora de área y perímetro de un triángulo equilátero</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <main>
+            <div id="wrapper">
+                <h1 id="title">Calculadora de área y perímetro de un triángulo equilátero</h1>
+                <section id="calculator">
+                    <section id="fields">
+                        <div>
+                            <label for="side">Tamaño lado (cm):</label><br>
+                            <input type="number" name="side" id="side" min="0" step="1" value=0>
+                        </div>
+                    </section>
+
+                    <section id="results">
+                        <div>
+                            <p><b>Perímetro: </b><span id="perimeter">0.00</span> cm</p>
+                            <p><b>Área: </b><span id="area">0.00</span> cm</p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </main>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
